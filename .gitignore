@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Environment variables (sensitive keys)
+.env
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Jupyter (we may use later)
+.ipynb_checkpoints/
+
+# AWS credentials (never push these)
+.aws/
